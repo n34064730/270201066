@@ -1,4 +1,4 @@
-gpa = int(input("Enter the gpa :"))
+gpa = float(input("Enter the gpa :"))
 lec= int(input("Enter the number of lecture :"))
 if ((gpa< 2.0) and (lec < 47)):
   print("Not enough number of lectures and GPA")
