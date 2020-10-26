@@ -1,2 +1,2 @@
 language = "python3"
-run = "python ss/son_soru.py"
+run = "python lab3/1.py"
