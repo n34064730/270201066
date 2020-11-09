@@ -5,10 +5,13 @@ basamak= len(toplam)
 
 liste1= []
 if (basamak <2):
-  print("0",toplam)
+  sonuc = "0"+toplam
+  print(sonuc)
 elif (basamak>=2):
   yeni_toplam = toplam[:: -1]
-  print(yeni_toplam[0:2 -1])
+  sona_gelelimartik = yeni_toplam[0:2]
+  print(sona_gelelimartik[:: -1])
+
 
   
 
