@@ -7,10 +7,9 @@ liste1= []
 if (basamak <2):
   print("0",toplam)
 elif (basamak>=2):
-  for i in toplam:
-    liste1.append(i)
-  for i in liste1:
-      
+  yeni_toplam = toplam[:: -1]
+  print(yeni_toplam[0:2 -1])
+
   
 
 
