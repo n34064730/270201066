@@ -10,3 +10,5 @@ for k in ie[2]:
   ucuncu += k
 toplam = (ilk/3 * 0.3) + (ikinci/3 * 0.3)+ (ucuncu/3 * 0.4)
 print(toplam)
+if toplam >= 90:
+  print("AA")
