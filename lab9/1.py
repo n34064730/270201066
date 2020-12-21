@@ -1,7 +1,7 @@
 def harmonic(num):
-  toplam=0
-  for i in range(1,num+1):
-    toplam+=1/i
-  return toplam
+  if num==1:
+    return 1
+  return 1/num + harmonic(num-1)
+
 x=int(input("Enter the num: "))
 print(harmonic(x))
