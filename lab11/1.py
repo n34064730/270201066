@@ -14,6 +14,19 @@ class Clynder:
     if radius>0:
       self.radius=radius
   def base_area(self):
-    pass
+    return math.pi* (self.radius**2)
+  def surface_area(self):
+    return 2*math.pi*self.radius*self.height
+  def Area(self):
+    return self.surface_area()+self.base_area()*2
+  def Volume(self):
+    return self.base_area()*self.height
+  
+silindir=Clynder(3,5)
+print(silindir.base_area())
+print(silindir.surface_area())
+print(silindir.Area())
+print(silindir.Volume())
+
 
 
